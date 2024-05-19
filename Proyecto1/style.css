@@ -1,1 +1,46 @@
 /* Add styles here */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 5px;
+    background-color: #86cecb;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #373b3e;
+}
+
+.container > div{
+    border: black 3px solid;
+    background-color: #137a7f;
+}
+
+.container > div:hover{
+    background-color: #e12885;
+}
+.header {
+    grid-column: 1/5;
+    height: 80px;
+}
+
+.nav {
+    grid-column: 1/5;
+}
+
+.section {
+    grid-column: 1/4;
+    height: 200px;
+}
+
+.sidebar {
+ 
+    height: 200px;
+}
+
+.footer {
+    grid-column: 1/5;
+}
