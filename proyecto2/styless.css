@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 5px;
+    font-size: 1rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+body > .container {
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fbb5cf;
+}
+
+.container > div {
+    background-color: #f988be;
+    border-radius: 100%;
+    align-content: space-around;
+}
+
+.container > div:hover{
+    background-color: #ec5568;
+}
+
+.teclaid17 {
+    grid-column: 1/3;
+    border-radius: 30%;
+}
